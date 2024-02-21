@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menumain">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:name="com.example.clothingshop.DressesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        tools:layout="@layout/dresseslist" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:background="@color/cream_gray"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fragment1Btn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Dresses" />
+
+        <Button
+            android:id="@+id/fragment2Btn"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Denims" />
+    </LinearLayout>
+</RelativeLayout>

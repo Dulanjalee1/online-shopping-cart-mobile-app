@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clothing shop</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_cart">Cart</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Dresses Fragment</string>
+    <string name="second_fragment_label">Denims Fragment</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">Sample text content here</string>
+</resources>
